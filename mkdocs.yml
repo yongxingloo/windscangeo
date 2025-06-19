@@ -1,0 +1,43 @@
+site_name: WindScanGEO
+theme:
+  name: material
+  palette: 
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7 
+
+
+        name: Switch to dark mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+
+nav:
+  - 'index.md'
+  - 'introduction.md'
+  - 'examples.md'
+  - 'validation.md'
+  -  'installation.md'
+  - 'example_notebook.ipynb'
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - mkdocs-jupyter
+  
