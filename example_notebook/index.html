@@ -1387,14 +1387,6 @@ INFO : Total number of scatterometer data points at daylight : 56677
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:131: RuntimeWarning: invalid value encountered in sqrt
-  r_s = (-1.0 * b_var - np.sqrt((b_var**2) - (4.0 * a_var * c_var))) / (2.0 * a_var)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>INFO : Latitude and longitude calculated
 INFO : Calculating indices
@@ -1852,31 +1844,9 @@ INFO : Extracting images
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1004: RuntimeWarning: Mean of empty slice.
-  x_mean = parallel_index[i][j][1].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1005: RuntimeWarning: overflow encountered in scalar subtract
-  x_min = x_mean - 63
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1007: RuntimeWarning: Mean of empty slice.
-  y_mean = parallel_index[i][j][0].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1008: RuntimeWarning: overflow encountered in scalar subtract
-  y_min = y_mean - 63
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>./results_folder/model_day_test_run/epoch_10.pth
 INFO : starting inference
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/run_function.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  model.load_state_dict(torch.load(model_path, map_location=device))
 </pre>
 </div>
 </div>
@@ -1990,31 +1960,9 @@ INFO : Extracting images
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1004: RuntimeWarning: Mean of empty slice.
-  x_mean = parallel_index[i][j][1].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1005: RuntimeWarning: overflow encountered in scalar subtract
-  x_min = x_mean - 63
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1007: RuntimeWarning: Mean of empty slice.
-  y_mean = parallel_index[i][j][0].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1008: RuntimeWarning: overflow encountered in scalar subtract
-  y_min = y_mean - 63
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>./results_folder/model_day_test_run/epoch_10.pth
 INFO : starting inference
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/run_function.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  model.load_state_dict(torch.load(model_path, map_location=device))
 </pre>
 </div>
 </div>
@@ -2040,31 +1988,9 @@ INFO : Extracting images
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1004: RuntimeWarning: Mean of empty slice.
-  x_mean = parallel_index[i][j][1].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1005: RuntimeWarning: overflow encountered in scalar subtract
-  x_min = x_mean - 63
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1007: RuntimeWarning: Mean of empty slice.
-  y_mean = parallel_index[i][j][0].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1008: RuntimeWarning: overflow encountered in scalar subtract
-  y_min = y_mean - 63
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>./results_folder/model_day_test_run/epoch_10.pth
 INFO : starting inference
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/run_function.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  model.load_state_dict(torch.load(model_path, map_location=device))
 </pre>
 </div>
 </div>
@@ -2090,31 +2016,9 @@ INFO : Extracting images
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1004: RuntimeWarning: Mean of empty slice.
-  x_mean = parallel_index[i][j][1].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1005: RuntimeWarning: overflow encountered in scalar subtract
-  x_min = x_mean - 63
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1007: RuntimeWarning: Mean of empty slice.
-  y_mean = parallel_index[i][j][0].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1008: RuntimeWarning: overflow encountered in scalar subtract
-  y_min = y_mean - 63
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>./results_folder/model_day_test_run/epoch_10.pth
 INFO : starting inference
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/run_function.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  model.load_state_dict(torch.load(model_path, map_location=device))
 </pre>
 </div>
 </div>
@@ -2140,31 +2044,9 @@ INFO : Extracting images
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1004: RuntimeWarning: Mean of empty slice.
-  x_mean = parallel_index[i][j][1].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1005: RuntimeWarning: overflow encountered in scalar subtract
-  x_min = x_mean - 63
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1007: RuntimeWarning: Mean of empty slice.
-  y_mean = parallel_index[i][j][0].mean().astype(int)
-/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/func.py:1008: RuntimeWarning: overflow encountered in scalar subtract
-  y_min = y_mean - 63
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>./results_folder/model_day_test_run/epoch_10.pth
 INFO : starting inference
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/home/yongxing/Documents/DoldrumsAI/3.0.0 showcase/windscangeo/run_function.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  model.load_state_dict(torch.load(model_path, map_location=device))
 </pre>
 </div>
 </div>
