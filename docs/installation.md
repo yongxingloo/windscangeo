@@ -2,9 +2,9 @@
 
 WindScanGEO can be installed via pip from PyPI.
 
-*because of [pytorch ](https://pytorch.org/)dependency, this package only works with python 3.10 and below*
+*because of [pytorch ](https://pytorch.org/)dependency, this package only works with python 3.10 and below.*
 
-    pip install windscangeo
+        Work in progress. The package doesn't work yet, expected to be released first week of July.
 
 (latest version : [0.0.1](https://pypi.org/project/PolarGeosAI/0.0.1/))
 
