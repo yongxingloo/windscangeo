@@ -11,10 +11,10 @@
 
 ![1749549985924](image/index/1749549985924.png)
 
-This framework is open-source and has been developped by Y.Loo, Dr. J.Sun, Dr. G.George at the Geoscience and Remote Sensing department and the Intelligent Systems department of the TU Delft. 
+This framework is open-source and has been developped by Y.Loo, Dr. J.Sun, Dr. G.George at the Geoscience and Remote Sensing department and the Intelligent Systems department of the TU Delft.
 
 The framework is distributed as a **Python package** that is easily usable to train and infer models at any time and location desired by the user. For more information, go to the *"Introduction"* page. To directly use the package yourself, go to the *"Installation"* page.
 
-For any questions or inquiries, please contact [yloo@tudelft.nl](yloo@tudelft.nl)
+For any questions or inquiries, please contact [yloo@tudelft.nl](mailto:yloo@tudelft.nl)
 
 <img src="image/index/logo.png" alt="description" width="100" align="right">

@@ -1,6 +1,7 @@
 site_name: WindScanGEO
 theme:
   name: material
+  custom_dir: overrides
   palette: 
     # Palette toggle for dark mode
     - scheme: slate
@@ -25,8 +26,10 @@ nav:
   - 'introduction.md'
   - 'examples.md'
   - 'validation.md'
-  -  'installation.md'
+  - 'installation.md'
   - 'example_notebook.ipynb'
+  - 'api_reference.md'
+  - 'bibliography.md'
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -39,5 +42,8 @@ markdown_extensions:
       alternate_style: true
 
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      include_source: True
+  - mkdocstrings
+  
   
